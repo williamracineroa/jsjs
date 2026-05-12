@@ -17,3 +17,15 @@ while (numero > 0) {
 }
 
 
+let saludos = ["Hola", "Bonjour", "Hello", "Hi"]
+
+saludos.forEach(
+    (saludo) => {
+    console.log(saludo) // this is used for print each element of the array saludos, in this case it will print "Hola", "Bonjour", "Hello", "Hi"
+}
+)
+
+for (const saludo of saludos) {
+    console.log(saludo) // this is used for print each element of the array saludos, in this case it will print "Hola", "Bonjour", "Hello", "Hi"
+}
+
