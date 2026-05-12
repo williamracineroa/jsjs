@@ -27,5 +27,5 @@ const not_change = Symbol("123"); // :symbol // is used for place a identifier a
 // console.log(usuario["123"]);        // "Hackeado" (Se creó una propiedad nueva, no tocó el Symbol)
 
 console.log (isStudent)
-console.log (typeof not_change) // is used for imput the type data 
+console.log (typeof not_change) // typeof // is used for imput the type data 
 
